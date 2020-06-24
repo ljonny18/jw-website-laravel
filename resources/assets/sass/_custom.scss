@@ -1,0 +1,236 @@
+@font-face {
+	font-family: "Lato" !important;
+	src: url("../fonts/Lato/Lato-Regular.ttf") !important;
+}
+
+html, body {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-size: 18px !important;
+  color: #333447;
+  line-height: 1.5;
+  margin:0;
+}
+
+
+p {
+    margin: 1em 0px;
+    font-size: 1.125rem;
+    font-weight: 200;
+    line-height: 1.8;
+}
+
+
+a {
+	text-decoration: none;
+}
+a:link {
+  color: #118AB2;
+}
+/* visited link */
+a:visited {
+  color: #118AB2;
+}
+/* mouse over link */
+a:hover {
+  color: #06D6A0;
+}
+/* selected link */
+a:active {
+  color: #118AB2;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 300;
+}
+
+.section {
+	padding: 20px 0px 20px 0px !important;
+}
+.lead {
+   font-size: 24px;
+   font-weight: 300;
+}
+
+.lead-xl {
+	font-size: 36px;
+}
+.lead-lg {
+	font-size: 30px;
+}
+
+.text-muted {
+	opacity: 60% !important;
+}
+.section-green .text-muted {
+	opacity: 80% !important;
+}
+
+.text-banner {
+	/*padding: 0px 40px 0px 40px;*/
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.banner-white {
+	color: whitesmoke;
+}
+
+.navbar {
+	z-index: 999;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.home-icon {
+	font-size: 38px;
+}
+
+.home-icon {
+  font-size: 6vw;
+}
+@media screen and (min-width: 992px) {
+  .home-icon {
+    font-size: 38px;
+  }
+}
+
+.profile-icon {
+	font-size: 38px;
+}
+
+.logo-container {
+
+}
+.header-color-bar {
+	margin: 0px !important;
+	height: 10px;
+} 
+.header-color-bar-pink {
+	background-color: #EF476F;
+}
+.header-color-bar-yellow {
+	background-color: #FFD166;
+}
+.header-color-bar-green {
+	/*background-color: #06D6A0;*/
+	background-color: #00BF8E;
+}
+.header-color-bar-blue {
+	background-color: #118AB2;
+}
+
+
+
+
+.h-tag-hidden {
+  height: 0px;
+  visibility: collapse;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-logo {
+  max-height: 100px;
+}
+
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.index-logo {
+  max-width: 800px !important;
+  width: 100% !important;
+}
+.project-logo {
+  /*max-height: 80px;*/
+//  max-width: 310px !important;
+//  max-height: 90px !important;
+//  max-height: 160px !important;
+//  padding: 30px;
+    max-width: 280px !important;
+    max-height: 90px !important;
+    vertical-align: middle;
+}
+
+
+
+.col-25 {
+	width: 25% !important;
+}
+
+
+.text-center {
+	text-align: center;
+}
+
+/*sections*/
+.section-blue, 
+.section-green {
+	color: whitesmoke !important;
+}
+
+
+.section-blue a {
+	text-decoration: none;
+}
+.section-blue a:link {
+  color: #06D6A0 !important;
+}
+/* visited link */
+.section-blue a:visited {
+  color: #06D6A0 !important;
+}
+/* mouse over link */
+.section-blue a:hover {
+  color: #FFF !important;
+}
+/* selected link */
+.section-blue a:active {
+  color: #06D6A0 !important;
+}
+
+
+
+/*images*/
+.img-rounded {
+	border-radius: 50%;
+}
+
+
+/*badges*/
+.badge-green {
+    color: #fff;
+    background-color: #00BF8E;
+}
+.badge-blue {
+	color: #fff;
+	background-color: #118AB2;
+}
+.badge-pink {
+	color: #fff;
+	background-color: #EF476F;
+}
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+blockquote {
+    padding: 0 0 0 15px;
+    margin: 0 0 1rem;
+    border-left: 4px solid rgba(255,255,255, 0.5);
+}
